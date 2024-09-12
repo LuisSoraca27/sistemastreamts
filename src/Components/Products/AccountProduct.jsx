@@ -22,22 +22,10 @@ const AccountProduct = () => {
         { name: 'Vix+', value: 'vix' },
         { name: 'Plex', value: 'plex' },
         { name: 'Crunchyroll', value: 'crunchyroll' },
-        { name: 'El profeNet', value: 'profenet' },
-        { name: 'Tidal', value: 'tidal' },
-        { name: 'youtube premium', value: 'youtube' },
-        { name: 'Deezer', value: 'deezer' },
-        { name: 'Apple Music', value: 'apple_music' },
         { name: 'Canva', value: 'canva' },
-        { name: 'Universal+', value: 'universal' },
-        { name: 'Apple TV', value: 'apple_tv' },
-        { name: 'Pornhub', value: 'pornhub' },
-        { name: 'Duolingo', value: 'duolingo' },
-        { name: 'Rakuten Viki', value: 'rakuten' },
-        { name: 'Calm', value: 'calm' },
-        { name: 'Mubi', value: 'mubi' },
-        { name: 'Napster', value: 'napster' },
-        { name: 'TVMia', value: 'tvmia' },
-        { name: 'Microsoft 365', value: 'microsoft365' }
+        { name: 'Magis TV', value:'magistv' },
+        { name: 'TeleLatino', value: 'tele_latino' },
+        { name: 'Jellyfin', value: 'jellyfin' },
     ]
 
 

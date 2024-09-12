@@ -87,7 +87,7 @@ const Login = () => {
               disabled={loading}
             />
           </form>
-          <div className="redes">
+          {/* <div className="redes">
             <p>Contactanos</p>
             <a
               href="http://wa.me/573014651579"
@@ -118,7 +118,7 @@ const Login = () => {
             >
               <img src={instagram} alt="Instagram" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

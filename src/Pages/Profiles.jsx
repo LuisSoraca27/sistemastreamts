@@ -120,7 +120,7 @@ const Profiles = () => {
               }
             })}
           </div>
-           { isCommunityPanelOpen && <CommunitiesPanel onClose={() => setIsCommunityPanelOpen(false)}/> }
+           {/* { isCommunityPanelOpen && <CommunitiesPanel onClose={() => setIsCommunityPanelOpen(false)}/> } */}
         </div>
       }
       {isModalOpen &&
