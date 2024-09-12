@@ -8,7 +8,6 @@ import IsLoading from '../Components/IsLoading'
 import ModalProduct from './ModalProduct'
 import { setBalanceThunk } from '../features/balance/balanceSlice'
 import ViewNotificationImg from '../Components/Notifications/ViewNotificationImg';
-import CommunitiesPanel from '../Components/CommunitiesPanel';
 
 const Course = () => {
 

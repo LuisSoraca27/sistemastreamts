@@ -21,7 +21,6 @@ import { setIsLoading } from '../features/isLoading/isLoadingSlice';
 import ModalProfile from './ModalProfile';
 import { setBalanceThunk } from '../features/balance/balanceSlice';
 import ViewNotificationImg from '../Components/Notifications/ViewNotificationImg';
-import CommunitiesPanel from '../Components/CommunitiesPanel';
 
 const categoryImageMap = {
   'netflix': [netflix, 'Netflix'],
@@ -44,7 +43,6 @@ const Profiles = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState(null);
   const [reload, setReload] = useState(false);
-  const [isCommunityPanelOpen, setIsCommunityPanelOpen] = useState(true);
 
   const dispatch = useDispatch();
   const profiles = useSelector((state) => state.profiles.length);
@@ -120,7 +118,6 @@ const Profiles = () => {
               }
             })}
           </div>
-           {/* { isCommunityPanelOpen && <CommunitiesPanel onClose={() => setIsCommunityPanelOpen(false)}/> } */}
         </div>
       }
       {isModalOpen &&

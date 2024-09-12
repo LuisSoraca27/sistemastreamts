@@ -20,7 +20,6 @@ import telelatino from '../assets/img/telelatino.png';
 import magistv from '../assets/img/magistv.png';
 import jellyfin from '../assets/img/jellyfin.png';
 import ViewNotificationImg from '../Components/Notifications/ViewNotificationImg';
-import CommunitiesPanel from '../Components/CommunitiesPanel';
 
 const Account = () => {
 
